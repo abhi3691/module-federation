@@ -1,0 +1,4 @@
+[submodule "app1"]
+	url = https://github.com/abhi3691/app1.git
+[submodule "host"]
+	url = https://github.com/abhi3691/host.git
