@@ -15,14 +15,14 @@ Module Federation is similar to Code Splitting, but offers more control, flexibi
 
 
 
-What is Module Federation?#
+## What is Module Federation?
 
 Module Federation is an architecture, which splits the application into multiple pieces. These pieces are called containers. Similarly to micro-services, Module Federation splits application into a distributed frontends, sometimes referred to as micro-frontends.
 
 
 <img width="1469" alt="Screenshot 2024-05-18 at 11 17 19 PM" src="https://github.com/abhi3691/module-federation/assets/54738565/5eb89bc9-e6ef-44a2-8335-4b5a415d884f">
 
-Benefits#
+### Benefits
 The main benefits or Module Federation are:
 
 Ability to split application into multiple isolated micro-frontends.
@@ -32,7 +32,7 @@ Ability to load different versions of the micro-fontends.
 Ability to use external micro-frontends.
 Keep in mind that this list is not exhaustive. It's possible you could benefit from Module Federation in another way as well.
 
-Challenges#
+### Challenges
 Not every project or application is a good fit for Module Federation. Due to nature of Module Federation there's are few challenges and overheads you need to consider:
 
 It's easy to cause dependency duplication, e.g. if you're using incompatible versions in micro-frontends/container.
